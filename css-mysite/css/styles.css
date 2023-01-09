@@ -1,32 +1,38 @@
 body{
-    margin: 0;
+    margin: auto;
     text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 h1 {
-    margin-top: 0;
-
+    margin: 0;
+    font-family: 'dancing script', cursive;
+    
 }
 
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .top-container {
     background-color:#A6E3E9;
     position: relative;
+    margin: auto;
     padding-top: 100px;
     
 
 }
 
-.middle-container {
-    background-color: #FFC93C;
-    height: 200px;
-    width: 200px;
+.middle-container { 
+    margin: auto;
 }
 
 .bottom-container {
-    background-color: #5BC0F8;
-    height: 200px;
-    width: 200px;
+    margin: auto;
 } 
 
 .top-cloud {
@@ -40,3 +46,8 @@ h1 {
     bottom: 300px;
 }
 
+.icons {
+    width: 50px;   
+    height: 50px;
+    padding-top: 5px;
+}
