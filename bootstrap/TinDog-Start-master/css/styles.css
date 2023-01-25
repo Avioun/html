@@ -13,17 +13,55 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
     color: white;
     margin-right: 10%;
 }
 
-.row {
-    padding-top: 5%;
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
 }
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* DL Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
 
 .iphone {
     rotate: 25deg;
+    width: 60%;
+}
+
+/* Features Section */
+.features-icon {
+    color: #ef8172
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: "montserrat-bold";
+    font-weight: bold;
 }

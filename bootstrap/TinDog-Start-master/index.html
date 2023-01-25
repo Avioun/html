@@ -37,9 +37,8 @@
   <body>
     <section id="title">
       <div class="container-fluid">
-        <!-- Nav Bar -->
-
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between">
           <a class="navbar-brand" href="">tindog</a>
           <button
             class="navbar-toggler"
@@ -52,7 +51,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="">Contact</a>
@@ -72,12 +71,8 @@
         <div class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-dark btn-lg">
-              <i class="fa-brands fa-apple"></i> Download
-            </button>
-            <button type="button" class="btn btn-outline-light btn-lg">
-              <i class="fa-brands fa-google-play"></i> Download
-            </button>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
           </div>
           <div class="col-lg-6">
             <img class="iphone" src="images/iphone6.png" alt="iphone-mockup" />
@@ -89,14 +84,19 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <div class="container-fluid flex-d-r d-flex justify-items-between col-lg-12">
+        <i class="fa-light fa-circle-check features-icon"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
+        <i class="fa-regular fa-bullseye"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+        <i class="fa-solid fa-heart"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
     </section>
 
     <!-- Testimonials -->
