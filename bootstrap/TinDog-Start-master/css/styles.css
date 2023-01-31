@@ -20,6 +20,22 @@ h1 {
     margin-right: 10%;
 }
 
+h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+p {
+    color: grey;
+}
 
 /* Navigation Bar */
 
@@ -60,8 +76,51 @@ h1 {
     color: #ef8172
 }
 
-h3 {
-    font-size: 1.5rem;
-    font-family: "montserrat-bold";
-    font-weight: bold;
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+
+.icon:hover {
+    color:#ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color:#ef8172;
+    padding: 4%;
+    text-align: center;
+}
+
+.press-image {
+    width: 15%;
+     margin: 20px 20px 50px;
 }
